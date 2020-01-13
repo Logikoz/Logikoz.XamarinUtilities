@@ -4,13 +4,15 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <Authors>Logikoz</Authors>
     <Company>Logikoz</Company>
-    <Product>Logikoz.XamarinUtilities</Product>
+    <Product>XamarinUtilities</Product>
     <Description>Utilities for xamarin.forms, Themes, ThemeService, Refections...</Description>
     <PackageProjectUrl>https://github.com/Logikoz/Logikoz.XamarinUtilities</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Logikoz/Logikoz.XamarinUtilities</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageIcon>utilities.png</PackageIcon>
     <PackageIconUrl />
+    <Version>1.0.0</Version>
+    <PackageId>XamarinUtilities</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
