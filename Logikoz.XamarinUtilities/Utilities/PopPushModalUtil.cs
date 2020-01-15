@@ -28,7 +28,18 @@ namespace Logikoz.XamarinUtilities.Utilities
             IReadOnlyList<Page> pages = navigation.ModalStack;
             pages.ForEach(async page =>
             {
-                if (page is T || (page as NavigationPage).RootPage is T)
+                if (page is T)
+                    await navigation.PopModalAsync(isAnimated);
+            });
+        }
+
+        public static void PopNavModalAsync<T>(bool isAnimated = false)
+        {
+            INavigation navigation = Application.Current.MainPage.Navigation;
+            IReadOnlyList<Page> pages = navigation.ModalStack;
+            pages.ForEach(async page =>
+            {
+                if ((page as NavigationPage).RootPage is T)
                     await navigation.PopModalAsync(isAnimated);
             });
         }
