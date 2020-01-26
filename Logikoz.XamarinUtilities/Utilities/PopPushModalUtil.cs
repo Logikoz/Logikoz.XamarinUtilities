@@ -22,7 +22,7 @@ namespace Logikoz.XamarinUtilities.Utilities
 
         public static async Task PushModalAsync(Page page, bool animated = false) => await Application.Current.MainPage.Navigation.PushModalAsync(page, animated);
 
-        public static void PopModalAsync<T>(bool isAnimated = false)
+        public static void PopModal<T>(bool isAnimated = false)
         {
             INavigation navigation = Application.Current.MainPage.Navigation;
             IReadOnlyList<Page> pages = navigation.ModalStack;
@@ -33,7 +33,7 @@ namespace Logikoz.XamarinUtilities.Utilities
             });
         }
 
-        public static void PopNavModalAsync<T>(bool isAnimated = false)
+        public static void PopNavModal<T>(bool isAnimated = false)
         {
             INavigation navigation = Application.Current.MainPage.Navigation;
             IReadOnlyList<Page> pages = navigation.ModalStack;
