@@ -2,10 +2,37 @@
 {
     public enum ColorsEnum
     {
-        PrimaryColor,
-        PrimaryTextColor,
-        SecondaryColor,
-        SecondaryTextColor,
+        PrimaryLightColor,
+        PrimaryLightTextColor,
+
+        PrimaryMidLightColor,
+        PrimaryMidLightTextColor,
+
+        PrimaryMidColor,
+        PrimaryMidTextColor,
+
+        PrimaryMidDarkColor,
+        PrimaryMidDarkTextColor,
+
+        PrimaryDarkColor,
+        PrimaryDarkTextColor,
+
+
+        SecondaryLightColor,
+        SecondaryLightTextColor,
+
+        SecondaryMidLightColor,
+        SecondaryMidLightTextColor,
+
+        SecondaryMidColor,
+        SecondaryMidTextColor,
+
+        SecondaryMidDarkColor,
+        SecondaryMidDarkTextColor,
+
+        SecondaryDarkColor,
+        SecondaryDarkTextColor,
+
 
         BackgroundColor,
         BackgroundTextColor,
