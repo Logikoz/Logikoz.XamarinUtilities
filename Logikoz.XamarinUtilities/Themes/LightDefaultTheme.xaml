@@ -4,37 +4,6 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
-    <Color x:Key="PrimaryDarkColor">#67089e</Color>
-    <Color x:Key="PrimaryDarkTextColor">#ffffff</Color>
-
-    <Color x:Key="PrimaryMidDarkColor">#7409b3</Color>
-    <Color x:Key="PrimaryMidDarkTextColor">#ffffff</Color>
-
-    <Color x:Key="PrimaryMidColor">#9d0af5</Color>
-    <Color x:Key="PrimaryMidTextColor">#ffffff</Color>
-
-    <Color x:Key="PrimaryMidLightColor">#a647ff</Color>
-    <Color x:Key="PrimaryMidLightTextColor">#ffffff</Color>
-
-    <Color x:Key="PrimaryLightColor">#b87dff</Color>
-    <Color x:Key="PrimaryLightTextColor">#ffffff</Color>
-
-
-    <Color x:Key="SecondaryDarkColor">#a10000</Color>
-    <Color x:Key="SecondaryDarkTextColor">#ffffff</Color>
-
-    <Color x:Key="SecondaryMidDarkColor">#c30a1c</Color>
-    <Color x:Key="SecondaryMidDarkTextColor">#ffffff</Color>
-
-    <Color x:Key="SecondaryMidColor">#ea132d</Color>
-    <Color x:Key="SecondaryMidTextColor">#ffffff</Color>
-
-    <Color x:Key="SecondaryMidLightColor">#ee4e5e</Color>
-    <Color x:Key="SecondaryMidLightTextColor">#ffffff</Color>
-
-    <Color x:Key="SecondaryLightColor">#f48686</Color>
-    <Color x:Key="SecondaryLightTextColor">#ffffff</Color>
-
     <Color x:Key="BackgroundColor">#ffffff</Color>
     <Color x:Key="BackgroundTextColor">#1E1E1E</Color>
 
@@ -50,5 +19,4 @@
     <Color x:Key="CardTextColor">#373737</Color>
 
     <Color x:Key="SeparatorLineColor">#D4D4D4</Color>
-
 </ResourceDictionary>

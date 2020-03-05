@@ -20,7 +20,8 @@ namespace Logikoz.XamarinUtilities.Utilities
             });
         }
 
-        public static async Task PushModalAsync(Page page, bool animated = false) => await Application.Current.MainPage.Navigation.PushModalAsync(page, animated);
+        public static async Task PushModalAsync(Page page, bool animated = false) => 
+            await Application.Current.MainPage.Navigation.PushModalAsync(page, animated);
 
         public static void PopModal<T>(bool isAnimated = false)
         {

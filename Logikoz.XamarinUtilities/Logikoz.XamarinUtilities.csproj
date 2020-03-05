@@ -11,7 +11,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageIcon>utilities.png</PackageIcon>
     <PackageIconUrl />
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <PackageId>XamarinUtilities</PackageId>
   </PropertyGroup>
 
@@ -25,6 +25,15 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Themes\Colors\Colors.Primary.Purple.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Themes\Colors\Colors.Secondary.Red.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

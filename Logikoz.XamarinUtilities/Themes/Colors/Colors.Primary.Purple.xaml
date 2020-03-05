@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Class="Logikoz.XamarinUtilities.Themes.Colors.Primary.Purple"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Color x:Key="PrimaryDarkColor">#67089e</Color>
+    <Color x:Key="PrimaryDarkTextColor">#ffffff</Color>
+
+    <Color x:Key="PrimaryMidDarkColor">#7409b3</Color>
+    <Color x:Key="PrimaryMidDarkTextColor">#ffffff</Color>
+
+    <Color x:Key="PrimaryMidColor">#9d0af5</Color>
+    <Color x:Key="PrimaryMidTextColor">#ffffff</Color>
+
+    <Color x:Key="PrimaryMidLightColor">#a647ff</Color>
+    <Color x:Key="PrimaryMidLightTextColor">#ffffff</Color>
+
+    <Color x:Key="PrimaryLightColor">#b87dff</Color>
+    <Color x:Key="PrimaryLightTextColor">#ffffff</Color>
+</ResourceDictionary>

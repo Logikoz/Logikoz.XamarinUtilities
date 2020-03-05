@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Class="Logikoz.XamarinUtilities.Themes.Colors.Secondary.Red"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Color x:Key="SecondaryDarkColor">#a10000</Color>
+    <Color x:Key="SecondaryDarkTextColor">#ffffff</Color>
+
+    <Color x:Key="SecondaryMidDarkColor">#c30a1c</Color>
+    <Color x:Key="SecondaryMidDarkTextColor">#ffffff</Color>
+
+    <Color x:Key="SecondaryMidColor">#ea132d</Color>
+    <Color x:Key="SecondaryMidTextColor">#ffffff</Color>
+
+    <Color x:Key="SecondaryMidLightColor">#ee4e5e</Color>
+    <Color x:Key="SecondaryMidLightTextColor">#ffffff</Color>
+
+    <Color x:Key="SecondaryLightColor">#f48686</Color>
+    <Color x:Key="SecondaryLightTextColor">#ffffff</Color>
+</ResourceDictionary>
