@@ -12,8 +12,8 @@ xmlns:color="clr-namespace:Logikoz.XamarinUtilities.Themes.Colors;assembly=Logik
 <ResourceDictionary>
   <ResourceDictionary.MergedDictionaries>
     <theme:LightDefaultTheme />
-    <color:Color.Primary.Purple />
-    <color:Color.Secondary.Red />
+    <color:Colors.Primary.Purple />
+    <color:Colors.Secondary.Red />
   </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
 ```
