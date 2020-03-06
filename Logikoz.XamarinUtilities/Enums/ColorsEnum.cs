@@ -38,6 +38,7 @@
         BackgroundTextColor,
 
         DialogBackgroundColor,
+        DialogBackgroundTextColor,
 
         NavigationBarColor,
         NavigationBarTextColor,
